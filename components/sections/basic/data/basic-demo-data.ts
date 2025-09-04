@@ -27,8 +27,8 @@ export const basicDemoData = {
     },
     party: {
       time: "19:00 hrs.",
-      venue: "Casino Ejidal Villa Hidalgo",
-      address: "Centro, 63550 Villa Hidalgo, Nayarit",
+      venue: "Casino Ejidal",
+      address: "Casino Ejidal de Patroneño No. 2",
       type: "Recepción",
       ubiLink: "https://maps.app.goo.gl/F66vzhExEsugueYL9"
     },
