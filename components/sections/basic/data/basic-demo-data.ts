@@ -1,0 +1,98 @@
+
+// Datos demo para el paquete básico de quinceañera
+export const basicDemoData = {
+  hero: {
+    name: "Maritza Getzemani",
+    subtitle: "¡Mis XV años!",
+    backgroundImage: "/images/quinceLila1.png"
+  },
+  
+  event: {
+    celebrant: "Maritza Getzemani",
+    parents: {
+      father: "Adrian Fuentes Salinas",
+      mother: "Enedina Prado Duarte"
+    },
+    date: {
+      full: "Sábado 20 de Diciembre 2025",
+      day: "Sábado",
+      date: "20 de Diciembre 2025"
+    },
+    ceremony: {
+      time: "17:00 hrs.",
+      venue: "Iglesia De Nuestra Señora De Guadalupe",
+      address: "Juárez 138, Flores Manzano, 63550 Villa Hidalgo, Nayarit",
+      type: "Misa de Acción de Gracias",
+      ubiLink: "https://maps.app.goo.gl/z3eoZpib7E9Ck3F86"
+    },
+    party: {
+      time: "19:00 hrs.",
+      venue: "Casino Ejidal Villa Hidalgo",
+      address: "Centro, 63550 Villa Hidalgo, Nayarit",
+      type: "Recepción",
+      ubiLink: "https://maps.app.goo.gl/F66vzhExEsugueYL9"
+    },
+    dressCode: "Formal",
+    restrictions: ""
+  },
+
+  countdown: {
+    targetDate: "December 20, 2025 17:00:00",
+    backgroundImage: "/images/countdown-bg.jpg"
+  },
+
+  attendance: {
+    title: "CONFIRMACIÓN DE ASISTENCIA",
+    message: "Favor de confirmar antes del evento.",
+    subtitle: "",
+    fields: {
+      name: "Nombre completo",
+      response: "¿Podrás acompañarme?",
+      companions: "Nombre(s) de acompañante(s)",
+      phone: "Número de celular",
+      responseOptions: {
+        yes: "¡Claro, ahí estaré!",
+        no: "Lo siento, no podré asistir."
+      }
+    }
+  },
+
+  gifts: {
+    title: "REGALO",
+    message: "Mi mejor regalo es compartir contigo este gran día.",
+    options: [
+      {
+        icon: "🎁",
+        title: "Opción 1",
+        description: "Descripción de la opción 1",
+        details: "Detalles de la opción 1"
+      },
+      {
+        icon: "🎁",
+        title: "Opción 2",
+        description: "Descripción de la opción 2",
+        details: "Detalles de la opción 2"
+      }
+    ]
+  },
+
+  demo: {
+    badge: "🎭 DEMO - Paquete Básico ($299)",
+    description: "Esta es una demostración del paquete básico",
+    features: [
+      "Cuenta Regresiva",
+      "Cuándo y dónde", 
+      "Confirmación de asistencia",
+      "Opciones de regalo",
+      "Código de vestimenta"
+    ],
+    cta: {
+      title: "¿Te gusta este paquete?",
+      subtitle: "Incluye todas las características esenciales para tu evento",
+      buttonText: "Contratar Paquete Básico - $299",
+      link: "/#pricing"
+    }
+  }
+}
+
+export type BasicDemoData = typeof basicDemoData 
