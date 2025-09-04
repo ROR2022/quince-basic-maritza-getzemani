@@ -63,15 +63,15 @@ export const basicDemoData = {
     options: [
       {
         icon: "🎁",
-        title: "Opción 1",
-        description: "Descripción de la opción 1",
-        details: "Detalles de la opción 1"
+        title: "Regalo Sorpresa",
+        description: "Mi mejor regalo es compartir contigo este gran día.",
+        details: "Si deseas hacerme un regalo, ¡estaré encantada de recibirlo!"
       },
       {
         icon: "🎁",
-        title: "Opción 2",
-        description: "Descripción de la opción 2",
-        details: "Detalles de la opción 2"
+        title: "Sobre con Efectivo",
+        description: "Compartir este día contigo es lo más importante para mí.",
+        details: "Si lo prefieres, puedes hacerme un regalo en efectivo."
       }
     ]
   },

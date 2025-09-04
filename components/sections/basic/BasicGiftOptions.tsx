@@ -50,7 +50,7 @@ export function BasicGiftOptions() {
           {basicDemoData.gifts.message}
         </p>
 
-        <div className="flex justify-center items-center gap-6">
+        <div className="flex flex-wrap justify-center items-center gap-6">
           {basicDemoData.gifts.options.map((option, index) => (
             <div
               key={index}
