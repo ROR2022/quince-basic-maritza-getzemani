@@ -28,7 +28,7 @@ export const basicDemoData = {
     party: {
       time: "19:00 hrs.",
       venue: "Casino Ejidal",
-      address: "Casino Ejidal de Patroneño No. 2",
+      address: "de Patroneño No. 2",
       type: "Recepción",
       ubiLink: "https://maps.app.goo.gl/F66vzhExEsugueYL9"
     },
