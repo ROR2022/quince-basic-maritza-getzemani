@@ -9,6 +9,7 @@ import {
 } from "@/components/sections/basic";
 import ParentsSection from "@/components/sections/ParentsSection";
 import BasicCTA from "@/components/sections/BasicCTA";
+import AudioPlayer from "@/components/AudioPlayer";
 
 const page = () => {
   return (
@@ -24,7 +25,7 @@ const page = () => {
       <BasicCTA />
 
       {/* 🎵 Reproductor de audio fijo */}
-      {/* <AudioPlayer />  */}
+      <AudioPlayer />
     </div>
   );
 };

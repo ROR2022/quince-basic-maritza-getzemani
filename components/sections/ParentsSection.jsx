@@ -33,7 +33,15 @@ export default function ParentsSection() {
   
 
   return (
-    <section id="parents" className="py-20 bg-muted/30">
+    <section 
+    style={{
+      background: `linear-gradient(to bottom, rgba(200, 191, 247, 0.7), rgba(200, 191, 247, 0.7)), url('/images/mariposas1.png')`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundAttachment: "scroll",
+      backgroundRepeat: "no-repeat",
+    }}
+    id="parents" className="py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="relative">
@@ -61,10 +69,10 @@ export default function ParentsSection() {
                   </h3>
                   <div className="space-y-2">
                     <p className="text-xl font-medium">
-                      {parents.bride.mother}
+                      Adrian Fuentes Salinas
                     </p>
                     <p className="text-xl font-medium">
-                      {parents.bride.father}
+                      Enedina Prado Duarte
                     </p>
                   </div>
                 </div>

@@ -24,12 +24,12 @@ export function BasicEventDetails() {
   return (
     <section
       style={{
-        //backgroundImage: `url('/images/quince/fondoDiana5.png')`,
-        //filter: "brightness(0.7)",
-        backgroundSize: "contain",
-        backgroundPosition: "center",
-        backgroundAttachment: "scroll",
-      }}
+      background: `linear-gradient(to bottom, rgba(200, 191, 247, 0.7), rgba(200, 191, 247, 0.7)), url('/images/mariposas1.png')`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundAttachment: "scroll",
+      backgroundRepeat: "no-repeat",
+    }}
       className="py-16 px-4 "
     >
       <div
