@@ -21,7 +21,7 @@ export const basicDemoData = {
     ceremony: {
       time: "17:00 hrs.",
       venue: "Iglesia De Nuestra Señora De Guadalupe",
-      address: "Juárez 138, Flores Manzano, 63550 Villa Hidalgo, Nayarit",
+      address: "JUAREZ No. 102 OTE. COL. CENTRO, Villa Hidalgo, Nayarit",
       type: "Misa de Acción de Gracias",
       ubiLink: "https://maps.app.goo.gl/z3eoZpib7E9Ck3F86"
     },
