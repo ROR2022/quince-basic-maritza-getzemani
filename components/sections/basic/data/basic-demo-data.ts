@@ -27,10 +27,10 @@ export const basicDemoData = {
     },
     party: {
       time: "19:00 hrs.",
-      venue: "Casino Ejidal",
-      address: "de Patroneño No. 2",
+      venue: "Casino Ejidal de Patroneño No.2",
+      address: "Oaxaca 36, entre Insurgentes y Constitución, Villa Hidalgo, Nayarit",
       type: "Recepción",
-      ubiLink: "https://maps.app.goo.gl/F66vzhExEsugueYL9"
+      ubiLink: "https://maps.app.goo.gl/vnMRK8MEGswPthbF7"
     },
     dressCode: "Formal",
     restrictions: ""
